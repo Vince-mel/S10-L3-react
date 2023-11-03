@@ -28,7 +28,11 @@ class MoviesCards extends React.Component {
           <Row className="row row-cols-6">
             {this.state.movies.Search &&
               this.state.movies.Search.slice(0, 6).map((movie) => (
-                <Movie key={movie.imdbID} img={movie.Poster} />
+                <Movie
+                  key={movie.imdbID}
+                  img={movie.Poster}
+                  dataId={movie.imdbID}
+                />
               ))}
           </Row>
         </Container>

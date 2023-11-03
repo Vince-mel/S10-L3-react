@@ -37,6 +37,10 @@ body {
   .navbar-icon:hover {
     color: white;
   }
+
+  .form-size {
+    height: 30px;
+  }
   
   #avatar {
     height: 40px;
